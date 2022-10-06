@@ -10,10 +10,12 @@ import java.util.*
                 print("x is neither 1 nor 2")
             }
         }*/
+        val array = IntArray(5)
 
         for (i in 1..3) {
-            println(i)
+            array[i]=i
         }
+        println(Arrays.toString(array))
         /*for (i in 6 downTo 0 step 2) {
             println(i)
         }*/
